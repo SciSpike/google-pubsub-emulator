@@ -1,5 +1,5 @@
 FROM google/cloud-sdk:alpine
-LABEL version=0.1.0-pre.0
+LABEL version=0.1.0-pre.1
 
 COPY . .
 
