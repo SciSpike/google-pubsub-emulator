@@ -1,6 +1,8 @@
 FROM google/cloud-sdk:alpine
 LABEL version=0.1.0-pre.0
 
+COPY . .
+
 ENV PUBSUB_PORT 8085
 RUN \
   apk --update add openjdk8-jre && \
